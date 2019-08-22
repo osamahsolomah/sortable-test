@@ -1,0 +1,32 @@
+.handler{
+    width: 25px;
+    height: 25px;
+	color: #fff;
+	display: inline-block;
+	background-image: url(./baseline-reorder-24px.svg);
+	top: 0;
+    right: 0px;
+    position: absolute;
+}
+.sortable{
+	position: relative;
+}
+.delete-me{
+	height: 10px;
+	background: yellow;
+}
+ol {
+	display: inline-block;
+	border: solid;
+    width: 80%;
+}
+li {
+	list-style:none
+}
+.sortable-next-sibling {
+	background-color:red;
+	
+}
+h2{
+	    display: inline-block;
+}
